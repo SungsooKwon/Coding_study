@@ -20,7 +20,8 @@
 
 # 모든 문자열이 제거되면 "CLEAN"을 출력한다.
 
-
+# 오답 노트
+# flag 개념 기억하기 -> Flase와 True 
 s = "AAAASAFEAAA"
 bomb = 'AAA'
 safe = 'SAFE'
