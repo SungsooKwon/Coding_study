@@ -6,7 +6,7 @@ def solution(a, b):
     cnt = 0
     
     for i in range(a, b + 1):
-        if i % 3 == 0 or (i // 10) % 3 == 0 or (i % 10) % 3 == 0:
+        if i % 3 == 0 or any(d in str(i) for d in ['3', '6', '9']):
             cnt += 1
         
 
